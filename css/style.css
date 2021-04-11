@@ -1,0 +1,126 @@
+/* Documento de estílo site WebDesign*/
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5;
+	color: #444;
+	font-style: 100%;
+}
+
+a{
+	color:#00CCFF;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+/* Estilos principais*/
+.container{
+	max-width: 1128px;
+	margin: 0 auto;
+}
+
+img,
+figure,
+video,
+embed{
+	max-width: 100%;
+}
+
+header{
+	width: 100%;
+	height: 48px;
+	margin-top: 36px;
+	margin-bottom: 36px;
+}
+
+.marca{
+	float: left;
+	width: 234px;
+}
+
+nav{
+	float: right;
+	width: 840px;
+}
+
+nav ul{
+	float: right;
+}
+
+nav li{
+	font-size: 12px;
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+nav li a{
+	color: #999;
+}
+
+.banner{
+	background: url('../img/banner.jpg');
+	height: 450px;
+	margin-bottom: 48px;
+	position: relative;
+}
+
+.caixa{
+	position: absolute;
+	top: 48px;
+	background:rgba(0,0,0,0.6); /*alfa que é o "a" do rgba, ele vai de 0 à 1, que é relativo à transparência*/
+	width: 480px;
+	padding: 24px 10px 24px 40px; /*padding é uma margem pra dentro do elemento, fazendo com que desgrude da margem do elemento em si, ordem top right bottom left*/
+	display: center;
+}
+
+h1{
+	font-size: 40px;
+	color: #FFF;
+	font-weight: 200;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.destaque{
+	font-size: 18px;
+	color: #FFF;
+	font-weight: 200;
+}
+
+.coluna{
+	width: 264px;
+	float: left;
+	margin-right: 24px;
+}
+
+.coluna:last-child{
+	margin-right: 0;
+}
+
+.coluna p{
+	text-align: justify;
+	font-size: 16px;
+}
+
+h2{
+	font-size: 24px;
+}
+
+footer{
+	width: 100%;
+	margin-top: 24px;
+	margin-bottom: 24px;
+}
+
+.footer{
+	font-size: 10px;
+	margin-bottom: 0;
+}
+
+
+
